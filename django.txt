@@ -1,0 +1,12 @@
+#django
+
+#for install virtualenv
+sudo apt install virtualenv
+
+#for create virtualenv
+virtualenv nameApp
+
+#for start virtualenv
+source bin/activate
+
+
