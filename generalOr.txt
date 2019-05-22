@@ -1,0 +1,38 @@
+*****General command line******
+
+#for create new file and reading file
+cat > nameFile / for create newFile and writing
+cat nameFile / for reading file
+> nameFile
+touch nameFile
+
+#To see the current track
+pwd
+
+#to remove file
+rm nameFile
+rm -i nameFile // viwe maseege before delete file
+rm -r * // for delete all file
+
+#for copy file
+cp nameFile nameNewFile
+cp -r namefolder nameNewFolder // for copy full folder
+cp -rv namefolder nameNewFolder // and see souers folder
+
+#for move file and rename
+mv nameFile
+mv nameFile newName /rename
+mv -i nameFile newName /rename but with maseege before rename
+
+#for Writing in file
+nano namefile
+
+#for make link
+ln -s nameFile toNameFile
+
+#for make folder
+mkdir namefile
+mkdir -p nameFile/nameFile/nameFile //for create Multiple folder
+
+
+

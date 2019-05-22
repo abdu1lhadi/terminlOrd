@@ -1,3 +1,0 @@
-
-#for create new file
-cat > nameFile

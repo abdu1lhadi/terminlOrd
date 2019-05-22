@@ -9,4 +9,26 @@ virtualenv nameApp
 #for start virtualenv
 source bin/activate
 
+#install django
+pip3 install django
 
+#for create project
+django-admin startproject nameProject
+
+#run server
+python3 manage.py runserver
+
+#for create new app
+django-admin startapp nameApp
+
+#for create migrations for those changes
+python3 manage.py makemigrations
+
+#for apply those changes to the database
+python3 manage.py migrate
+
+#for test databais in python
+python3 manage.py shell
+
+#for create my Admin
+python3 manage.py createsuperuser
