@@ -1,0 +1,20 @@
+#for login on heroku
+heroku login
+
+#for need start heroku first install packages
+pip install gunicorn
+
+#for create new abb
+heroku create nameAPP
+
+#for need open URL heroku
+heroku open
+
+#for need push data to heroku
+git push heroku master
+
+#for set remote our heroku
+heroku git:remote -a nameAPP
+
+#for check error in heroku app
+heroku logs --tail

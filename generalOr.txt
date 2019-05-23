@@ -1,4 +1,5 @@
 *****General command line******
+sudo apt-get update
 
 #for create new file and reading file
 cat > nameFile / for create newFile and writing
@@ -34,5 +35,41 @@ ln -s nameFile toNameFile
 mkdir namefile
 mkdir -p nameFile/nameFile/nameFile //for create Multiple folder
 
+#for list folder
+ls -l /read folder and description
+ls -lh /and Reading for humans
+ls -ltr /not for humans but View the latest files above
 
+#for copy folder To and from another computer
+scp nameFileOrNameComputer TO nameFileOrNameComputer
+
+#for search file in computer
+find ~ -name "nameFile"
+find ~ -empty /for search file is empty
+
+#to compress file and Unpack a file
+tar zcvf newnameFile.tar.gz nameFolder/ **to copress
+tar zxvf nameFolder.tar.gz /unpack
+unzip nameFile.zip /unpack zip
+
+
+
+
+**************************
+###### ### ROOT ### ######
+**************************
+
+#for open root
+su
+
+#for search word inside file by root
+grep -i "word" nameFile
+cat nameFile | grep "word" /for read and search
+
+#for search Last lines in file
+tail nameFile
+tail -n 2 nameFile /select To search the last lines number
+
+#for install file in internt
+wget yourLink
 
