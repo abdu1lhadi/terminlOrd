@@ -1,5 +1,37 @@
+#Change the validity of files
+chmod 777 nameFile
+
+#Write on a file
+nano namefile
+
+#Explanation of orders
+man nameCommed
+
+#for install or update or upgrade
+apt-get commedName
+
+#souers app install on kali
+~/etc/apt
+
+#file for all commedLain in tramminl
+~/user/bin
+
+#for chack hardDisk in tramminl
+df-h
+
+#To see the processor usage size
+top or htop
+
+#To kill signal PID in processor
+kill (for diytels cilke man)
+
+#To delete excess files
+apt-get autoremove
+
 *****General command line******
 sudo apt-get update
+#advanc
+apt-get update --fix-missing
 
 #for create new file and reading file
 cat > nameFile / for create newFile and writing
@@ -14,6 +46,7 @@ pwd
 rm nameFile
 rm -i nameFile // viwe maseege before delete file
 rm -r * // for delete all file
+rm -rf  for delete folder
 
 #for copy file
 cp nameFile nameNewFile
@@ -70,6 +103,21 @@ cat nameFile | grep "word" /for read and search
 tail nameFile
 tail -n 2 nameFile /select To search the last lines number
 
+
 #for install file in internt
 wget yourLink
 
+**************************
+##### ### Testing ### ####
+**************************
+#for view server to target
+traceroute yourlink or ip
+
+#for test and get ip
+ping yourLink
+
+#mine toole for footprinting
+maltege
+
+#mine toole for footprinting
+recon-ng
